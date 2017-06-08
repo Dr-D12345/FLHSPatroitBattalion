@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">FLHS</string>
+    <string name="header">Francis Lewis Patroit Battalion</string>
+    <string name="defaultText">No Connection :( </string>
+    <string name="context_action">context_action</string>
+    <string name="title_activity_navigationdrawer">navigationdrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+        <item>Item 6</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nav2">Nav2</string>
+    <string name="title_activity_main">FLHS</string>
+    <string name="enter_password">Enter Password:</string>
+    <string name="enter_text">Write a Post</string>
+    <string name="send">Send</string>
+    <string name="send_button">Send</string>
+    <string name="alpha_first_platoon">Alpha First Platoon</string>
+    <string name="grooming_males_Text">  (a) The hair on top of the head must be neatly groomed. The length and bulk of the hair may not be excessive or present a ragged, unkempt, or extreme appearance. The hair must present a tapered appearance. When the hair is combed, it will not fall over the ears or eyebrows, or touch the collar, except for the closely cut hair at the back of the neck. \n \n (b) Males will keep their face clean-shaven when in uniform or in civilian clothes. \n \n (c) Fingernails. All personnel will keep fingernails clean and neatly trimmed. Males will keep nails trimmed so as not toextend beyond the fingertip.
+             \n \n (d) Any kind of jewelry including any body piercings, earrings, nose rings, etc are not authorized when wearing uniform. No earrings are allowed to be covered with a band-aid. \n \n (e) Cadets are allowed to have wristwatches
+</string>
+    <string name="grooming_females_Text">    (a) Females will ensure their hair is neatly groomed, that the length and bulk of the hair are not excessive, and that the hair does not present a ragged, unkempt, or extreme appearance. Likewise, trendy styles that result in shaved portions of the scalp (other than the neckline) or designs cut into the hair are prohibited. Long hair that falls naturally below the bottom edge of the collar, to include braids, will be neatly and inconspicuously fastened or pinned, so no free-hanging hair is visible. This includes styles worn with the physical fitness uniform. \n \n (b)Females will ensure that hairstyles do not interfere with proper wear of military headgear. When headgear is worn, the hair will not extend below the bottom edge of the front of the headgear, nor will it extend below the bottom edge of the collar. \n \n (c)Hair-holding devices are authorized only for the purpose of securing the hair. Cadets will not place hair-holding devices in the hair for decorative purposes. All hair-holding devices must be plain and of a color as close to the cadet’s hair as is possible. Authorized devices include, but are not limited to, small, plain scrunchies (elastic hair bands covered with material), barrettes, combs, pins, clips, rubber bands, and hair bands. Devices that are conspicuous, excessive, or decorative   are prohibited. Some examples of prohibited devices include, but are not limited to, large, lacy scrunchies; beads, bows, or claw clips; clips, pins, or barrettes with butterflies, flowers, sparkles, gems, or scalloped edges; and bows made from hairpieces.
+        \n \n (d) Females will not exceed a nail length of 1⁄4 inch, as measured from the tip of the finger. \n \n (e) Earrings may be screw-on, clip-on, or post-type earrings, in gold, silver, white pearl, or diamond. The earrings will not exceed 6 mm or 1⁄4 inch in diameter, and they must be unadorned and spherical. When worn, the earrings will fit snugly against the ear. Females may wear earrings only as a matched pair, with only one earring per ear lobe. No females are allowed to cover an earring with a band-aid. \n \n (f) Cadets are allowed to have wristwatches  </string>
+    <string name="KnowledgeSheet"> <b> Senior Army Instructor/Army Instructors </b> \nSAI: Lieutenant Colonel Lahood \nAI: Command Sergeant Major Cabrera\nAI: Sergeant Major Polanco \nAI: First Sergeant Simmons \nAI: Master Sergeant Badia \nAI: Sergeant First Class Madison \nAI: Sergeant First Class Dash Army\n <b>Chain of Command:</b> \nCommander In Chief: Honorable Barack Obama\nSecretary of Defense: Honorable Ashton Carter \nSecretary of the Army: Honorable John McHugh \nChairman of Joint Chief of Staff: General Dunford ​ \nChief of Staff of the Army: General Mark A. Milley \nSergeant Major of the Army: Sergeant Major Daniel A. Dailey\nCommander of TRADOC: General David Perkins \nCommand Sergeant Major of TRADOC: Command Sergeant Major David S. Davenport Sr. \nCommanding General of Cadet Command: Major General Christopher Hughes \nCommand Sergeant Major of Cadet Command: Command Sergeant Major Gabriel Arnold \nDirector of Army JROTC: Colonel Thomas G. Bell \nCommander of 2nd Brigade: Colonel Kenneth Mintz\n Command Sergeant Major of 2nd Brigade: Command Sergeant Major Bryon C. Larson\n
+       \n\n <b>Basic Knowledge</b> \n<u>What does JROTC stand for?</u> \nJROTC stands for Junior Reserve Officers’ Training Corps.\n<u>What does LET stand for?</u> \nLET stands for Leadership, Education, Training.\n <u>What does JCLC stand for?</u> \nJCLC stands for JROTC Cadet Leadership Challenge. \n<u>What does SAI stand for?</u>\nSAI stands for Senior Army Instructor. \n<u>What does AI stand for?</u>\nAI stands for Army Instructor.\n<u>What is the mission of JROTC?</u>\nThe mission of JROTC is to motivate young people to become better citizens.\n<u>What is the key to success in JROTC?</u> \nThe key to success in JROTC is teamwork. \n<u>What are the three levels of distinction that JROTC units can earn?</u> \nThe three levels of distinction that JROTC units can earn are merit unit, honor unit, and honor unit with distinction.
+        \n\n<b>Leadership</b> \n<u>What is the definition of leadership?</u> \nLeadership is the process of influencing others to accomplish a mission by providing purpose, direction, and motivation. \n<u>What are the three leadership styles? Explain each.</u> \nDelegating: Giving decision making authority to subordinates. \nDirecting: Instructing subordinates. \nParticipating: Involving subordinates in the decision making process. \n<u>What are the seven army values?</u> \nL- Loyalty \nD- Duty \nR- Respect \nS- Selfless Service \nH- Honor \nI- Integrity \nP- Personal Courage \n<u>Define teamwork.</u> \nTeamwork is the cooperative effort of a group of people working together to achieve a common goal.
+        \n\n<b>Drill Ceremony</b> \n<u>What are the 2 parts of a command?</u>\nThe Preparatory command and the Command of Execution. \n<u>What foot do you call the command rear march on?</u> \nThe Right Foot \n<u>On which foot do you give the command halt?</u> \nEither Foot. \n<u>What is the normal cadence or rate of quick time?</u> \n120 steps per minute. \n<u>What is the rate of “double time”?</u> \n180 steps per minute.
+        \n\n<b>Map Reading How do you read a military map?</b> \nFrom Right Up \n<u>What are the 5 basic colors on a military map and what do they represent?</u> \nBlue- Water \nGreen- Vegetation \nBrown- Contour lines/Elevation relief \nBlack- Man made objects \nRed- Highly populated areas major roads \n<u>Name the 5 major terrain features on a military map?</u> \nHill, Saddle, Valley, Ridge, Depression \n<u>What are the 3 types of north’s on a military map?</u> \nTrue, Grid, Magnetic \n
+        \n\n<b>First Aid Health</b> \n<u>Define First Aid.</u> \nFirst Aid is the immediate care given to an injured or ill victim before professional medical help arrives. \n<u>What are the 4 life saving steps? </u>\nCheck for consciousness, check for breathing and heartbeat, check for bleeding, and check for shock.
+        \n\n<b>Government</b> \n<u>What are the 3 branches of government and what do they do?</u> \nLegislative: Makes the law. \nJudicial: Interprets the law. \nExecutive: Enforces and carries out the law.
+        \n\n<b>American History Citizenship</b> \n<u>Who wrote the star spangled banner?</u>\nFrancis Scott Key \n<u>What do the colors on the United States flag represent?</u> \nRed- Valor \nBlue- Justice \nWhite- Purity \n<u>What do the 13 stripes on the United States flag represent?</u> \nThe original 13 colonies. \n<u>What are the 3 types of American flags and which is the largest?</u> \nPost, Storm, Garrison. Garrison is the largest. \n<u>What is the UCMJ?</u> \nUniform Code of Military Justice \n
+        \n\n<b>The Cadet Creed</b> \nI am an Army Junior ROTC Cadet. I will always conduct myself to bring credit to my family, country, school and the Corps of Cadets. I am loyal and patriotic. I am the future of the United States of America. I do not lie, cheat or steal and will always be accountable for my actions and deeds. I will always practice good citizenship and patriotism. I will work hard to improve my mind and strengthen my body. I will seek the mantle of leadership and stand prepared to uphold the Constitution and the American way of life. May God grant me the strength to always live by this creed.</string>
+    <string name="ranks_and_ribbions">Ranks and Ribbions</string>
+    <string name="ranks">Ranks</string>
+    <string name="ribbons">Ribbons</string>
+    <string name="uniform">uniform</string>
+    <string name="uniformheader">Uniform</string>
+    <string name="R818">I consider that our present sufferings are not worth comparing with the glory that will be revealed in us. Romans 8:18</string>
+    <string name="AlphaChain">
+    <b>Chain of Command: </b>\n
+    <u>Company Commander:Cadet Captain Alena Thompson</u> \n
+    <u>Company Executive Officer:</u> Cadet First Lieutenant Sharon Kim\n
+    <u>Company First Sergeant:</u> Cadet First Sergeant Carlos Cobos \n
+    </string>
+    <string name="BravoChain">
+
+    <b>Chain of Command: </b>\n
+    <u>Company Commander:</u> Cadet Captain Riyadh Ally\n
+    <u>Company Executive Officer:</u> Cadet First Lieutenant Sophia Liu\n
+    <u>Company First Sergeant:</u> Cadet First Sergeant Jilenny Duran\n
+
+    </string>
+    <string name="CharlieChain">
+
+    <b>Chain of Command: </b>\n
+    <u>Company Commander:</u> Cadet Captain Anna Gao\n
+    <u>Company Executive Officer:</u> Cadet First Lieutenant Christopher Santos\n
+    <u>Company First Sergeant:</u> Cadet First Sergeant Deisi Bautista\n
+
+    </string>
+    <string name="DeltaChain">
+
+<b>Chain of Command: </b>\n
+    <u>Company Commander:</u> Cadet Captain Tiffany Chow\n
+    <u>Company Executive Officer:</u> Cadet First Lieutenant Seher Akram\n
+    <u>Company First Sergeant:</u> Cadet First Sergeant Samantha Cruz\n
+
+    </string>
+    <string name="EchoChain">
+
+<b>Chain of Command: </b>\n
+    <u>Company Commander:</u> Cadet Captain Tina Chen\n
+    <u>Company Executive Officer:</u> Cadet First Lieutenant Camelley Chen\n
+    <u>Company First Sergeant:</u> Cadet First Sergeant Calvin Fung\n
+
+    </string>
+    <string name="FoxtrotChain">
+        <b>Chain of Command: </b>\n
+    <u>Company Commander:</u> Cadet Captain Soo Min Kim\n
+    <u>Company Executive Officer:</u> Cadet First Lieutenant Vanessa Spina\n
+    <u>Company First Sergeant:</u> Cadet First Sergeant Joyce Pan\n
+    </string>
+    <string name="AlphaMotto">
+    Alpha gators, on the top\n
+    Working hard, we\'ll never stop\n
+    Undeterred, just like our bite\n
+    We will fight, with all our might\n
+    Challenge us, we\'ll take the lead\n
+    Cause Alpha company will succeed\n
+    HOO-AH ALPHA!
+    </string>
+    <string name="BravoMotto">
+    Bravo Bears, coming through,\n
+    We are many, they are few,\n
+    All our foes, will run and hide,\n
+    When they see, our roaring pride,\n
+    With our future, oh so bright,\n
+    Bravo Company, does it right!\n
+    ​B-R-A-V-O Hoo-ah BRAVO
+    </string>
+    <string name="CharlieMotto">
+    Charlie cougars at the top ,\n
+    You can try but we won\'t stop,\n
+    Working working at our best,\n
+    Stronger, faster than the rest,\n
+    No one else can take the lead\n
+    Charlie company will succeed\n
+    HOO-AH CHARLIE
+    </string>
+    <string name="DeltaMotto">
+    Delta Dragons standing tall\n
+    There\'s no way you\'ll make us fall\n
+    Working hard to win the fight\n
+    Making sure you know were right\n
+    Step aside and watch us go\n
+    Were the ones who run the show\n
+    HOO-AH DELTA
+    </string>
+    <string name="EchoMotto">
+    Echo Eagles soaring high,\n
+    Reaching higher than the sky \n
+    Staying fearless as we fight,\n
+    Challenge us with all your might \n
+    Strong and swift just like our wings \n
+    We can conquer anything \n
+    HOO-AH ECHO
+    </string>
+    <string name="FoxtrotMotto">
+    Foxtrot Foxes win the fight\n
+    Dominating with our might\n
+    We\'re fast, fierce, and always strong\n
+    Other companies won\'t last long\n
+    We won\'t give up, or give in\n
+    Foxtrot Company always wins\n
+    HOO-AH FOXTROT 
+
+    </string>
+</resources>
