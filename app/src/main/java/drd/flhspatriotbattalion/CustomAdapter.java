@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHolder> {
 
-    private ArrayList<Annoucement> dataSet;
+    private ArrayList<Announcements> dataSet;
 
 
 
@@ -31,7 +31,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
     }
 
-    public CustomAdapter(ArrayList<Annoucement> data) {
+    public CustomAdapter(ArrayList<Announcements> data) {
         this.dataSet = data;
     }
     @Override
