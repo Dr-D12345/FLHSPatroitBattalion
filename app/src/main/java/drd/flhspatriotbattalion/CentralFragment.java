@@ -13,6 +13,8 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -42,7 +44,7 @@ public class CentralFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     private static RecyclerView.Adapter adapter;
-    private FirebaseListAdapter<Annoucement> mAdapter;
+    private FirebaseListAdapter<Announcements> mAdapter;
     private RecyclerView recyclerView;
     public CentralFragment() {
         // Required empty public constructor
@@ -59,7 +61,7 @@ public class CentralFragment extends Fragment {
         }
         // Inflate the layout for this fragment
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference wotdRef = database.getReference("WOTD").child("text");
+        DatabaseReference wotdRef = database.getReference("WOTD");
         FragmentManager mFragmentManager = getFragmentManager();
         mFragmentManager.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
@@ -74,7 +76,14 @@ public class CentralFragment extends Fragment {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String wordoftheday = dataSnapshot.getValue(String.class);
-                WOTD.setText(wordoftheday);
+               int a = wordoftheday.indexOf("Used");
+
+                wordoftheday = wordoftheday.substring(0,a-1) + "\n"+wordoftheday.substring(a, wordoftheday.length());
+                SpannableString content = new SpannableString(wordoftheday);
+                content.setSpan(new UnderlineSpan(), a, a+18, 0);
+
+                WOTD.setText(content);
+
             }
 
             @Override
@@ -82,17 +91,19 @@ public class CentralFragment extends Fragment {
 
             }
         });
+
         recyclerView = (RecyclerView) view.findViewById(R.id.my_recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         DatabaseReference cardRef = database.getReference().child("main");
         cardRef.keepSynced(true);
-        FirebaseRecyclerAdapter<Annoucement, myViewHolader> adapter = new FirebaseRecyclerAdapter<Annoucement, myViewHolader>(Annoucement.class, R.layout.cardview, myViewHolader.class, cardRef) {
+        FirebaseRecyclerAdapter<Announcements, myViewHolader> adapter = new FirebaseRecyclerAdapter<Announcements, myViewHolader>(Announcements.class, R.layout.cardview, myViewHolader.class, cardRef) {
             @Override
-            protected void populateViewHolder(myViewHolader viewHolder, Annoucement model, int position) {
+            protected void populateViewHolder(myViewHolader viewHolder, Announcements model, int position) {
                 viewHolder.myTextView.setText(model.getAnnoucemnets());
             }
         };
         recyclerView.setAdapter(adapter);
+
         FAB = (FloatingActionButton) view.findViewById(R.id.fab);
         FAB.setBackgroundColor(getResources().getColor(R.color.colorAccent));
         FAB.setOnClickListener(new View.OnClickListener() {

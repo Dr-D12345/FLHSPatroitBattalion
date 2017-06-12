@@ -27,13 +27,14 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="34dp"
             android:textColor="@color/white"
-            android:textSize="40sp"
+            android:textSize="30sp"
             android:textAlignment="center"
             android:padding="10sp"
             android:background="@color/colorAccentDark"/>
 
         <TextView
-            android:textSize="30sp"
+            android:textSize="20sp"
+            android:padding="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"

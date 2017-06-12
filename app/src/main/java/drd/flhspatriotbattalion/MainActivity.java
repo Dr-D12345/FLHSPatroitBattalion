@@ -48,35 +48,7 @@ public class MainActivity extends AppCompatActivity
         final SharedPreferences.Editor editor = sharedPreferences.edit();
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
 
-        System.out.println("hippo" + sharedPreferences.getString("A6","") +" key "+ sharedPreferences.getString("key","") + "context" + sharedPreferences.getString("context",""));
-     if (sharedPreferences.getString("A6","").equals("true") || sharedPreferences.getString("A6","").equals("false")) {
 
-            DatabaseReference databaseReference = database.getReference("Admins").child(sharedPreferences.getString("key", "")).child(sharedPreferences.getString("context", ""));
-
-                databaseReference.addValueEventListener(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        if (dataSnapshot.getValue().equals("false")) {
-                            editor.putString("A6", "false");
-                            editor.apply();
-                            System.out.println("hippo2" + sharedPreferences.getString("A6", ""));
-
-                        } else if (dataSnapshot.getValue().equals("True")) {
-                            editor.putString("A6", "true");
-                            editor.apply();
-                        }
-
-                    }
-
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-
-                        System.out.println("hello" + databaseError.getCode());
-                    }
-                });
-
-
-        }
        final CentralFragment centralFragment = new CentralFragment();
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.Relative_Layout_For_Fragments,
