@@ -44,7 +44,7 @@ public class CentralFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     private static RecyclerView.Adapter adapter;
-    private FirebaseListAdapter<Announcements> mAdapter;
+    private FirebaseListAdapter<AnnouncementsC> mAdapter;
     private RecyclerView recyclerView;
     public CentralFragment() {
         // Required empty public constructor
@@ -96,9 +96,9 @@ public class CentralFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         DatabaseReference cardRef = database.getReference().child("main");
         cardRef.keepSynced(true);
-        FirebaseRecyclerAdapter<Announcements, myViewHolader> adapter = new FirebaseRecyclerAdapter<Announcements, myViewHolader>(Announcements.class, R.layout.cardview, myViewHolader.class, cardRef) {
+        FirebaseRecyclerAdapter<AnnouncementsC, myViewHolader> adapter = new FirebaseRecyclerAdapter<AnnouncementsC, myViewHolader>(AnnouncementsC.class, R.layout.cardview, myViewHolader.class, cardRef) {
             @Override
-            protected void populateViewHolder(myViewHolader viewHolder, Announcements model, int position) {
+            protected void populateViewHolder(myViewHolader viewHolder, AnnouncementsC model, int position) {
                 viewHolder.myTextView.setText(model.getAnnoucemnets());
             }
         };

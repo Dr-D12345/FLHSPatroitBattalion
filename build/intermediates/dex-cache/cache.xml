@@ -218,6 +218,15 @@
         <dex dex="/Users/derekpastor/Documents/AndroidFlhs/FLHSPatroitBattalion/app/build/intermediates/pre-dexed/release/bolts-tasks-1.4.0_459762925efb55aaf394ffc6df031c55678c32c5.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/derekpastor/Documents/AndroidFlhs/FLHSPatroitBattalion/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="af142b8666e2c397dc15748b0daccd09b8664852">
+        <dex dex="/Users/derekpastor/Documents/AndroidFlhs/FLHSPatroitBattalion/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_de615ed7a217f0c1e0ce6912b07e7746c5b5185e/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/derekpastor/.android/build-cache/9771315a38bb83c5fccb5914b9ae5fc5b9c37de5/output/jars/classes.jar"
         jumboMode="false"
@@ -234,15 +243,6 @@
         revision="25.0.0"
         sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
         <dex dex="/Users/derekpastor/Documents/AndroidFlhs/FLHSPatroitBattalion/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_9c137bc774b19d5bee3e5ced6d2a7a096c45797d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/derekpastor/Documents/AndroidFlhs/FLHSPatroitBattalion/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0ca9b3fcef5f56b40dec69dca97bd3326e7a4555">
-        <dex dex="/Users/derekpastor/Documents/AndroidFlhs/FLHSPatroitBattalion/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_de615ed7a217f0c1e0ce6912b07e7746c5b5185e/classes.dex" />
     </item>
     <item
         is-multidex="true"
