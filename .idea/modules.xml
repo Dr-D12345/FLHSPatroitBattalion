@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FLHSPatriotBattalion.iml" filepath="$PROJECT_DIR$/FLHSPatriotBattalion.iml" />
+<<<<<<< HEAD
+=======
+      <module fileurl="file://$PROJECT_DIR$/FLHSPatroitBattalion.iml" filepath="$PROJECT_DIR$/FLHSPatroitBattalion.iml" />
+>>>>>>> 974f48e9fc573e801e27470f65e75a686990a142
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

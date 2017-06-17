@@ -56,13 +56,45 @@
         <dex dex="C:\FLHSPatriotBattalion\app\build\intermediates\pre-dexed\debug\classes_c8ab12fd5a4f4c148fce248512f6159a133e109a.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/derekpastor/Documents/AndroidFlhs/FLHSPatroitBattalion/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="af142b8666e2c397dc15748b0daccd09b8664852">
+        <dex dex="/Users/derekpastor/Documents/AndroidFlhs/FLHSPatroitBattalion/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_de615ed7a217f0c1e0ce6912b07e7746c5b5185e/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\derek\.android\build-cache\71214b5167e58feb381870992480db86a8a0a634\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
+<<<<<<< HEAD
         sha1="914f5d3e3ace66080e59613708f06d129a222e25">
         <dex dex="C:\FLHSPatriotBattalion\app\build\intermediates\pre-dexed\debug\classes_daf74156dfef4268e2b68da0a87236fc3a9668a6.jar" />
+=======
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/derekpastor/Documents/AndroidFlhs/FLHSPatroitBattalion/app/build/intermediates/pre-dexed/release/classes_ff2d477c5e0db5a913f4a47559c58fb6527e3d26.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/derekpastor/Documents/AndroidFlhs/FLHSPatroitBattalion/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_9c137bc774b19d5bee3e5ced6d2a7a096c45797d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/derekpastor/.android/build-cache/b1b9d7f8abfdf791a66557ad20df6afaf75d0dcd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42a3ae86dd3ae2876d3e95c2e6e104ae57a50a65">
+        <dex dex="/Users/derekpastor/Documents/AndroidFlhs/FLHSPatroitBattalion/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1e57ecb01f47bb3ae5a400ccc7bfae9b79b1ab98/classes.dex" />
+>>>>>>> 974f48e9fc573e801e27470f65e75a686990a142
     </item>
     <item
         is-multidex="false"
