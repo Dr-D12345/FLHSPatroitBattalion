@@ -123,6 +123,11 @@ public class MainActivity extends AppCompatActivity
                     create_fragment,
                     create_fragment.getTag()).addToBackStack(create_fragment.getTag()).commit();
 
+        }else if(id==R.id.login){
+            Intent a = new Intent(this, Login.class);
+            startActivity(a);
+
+
         }
 
         return super.onOptionsItemSelected(item);

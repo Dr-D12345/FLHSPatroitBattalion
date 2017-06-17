@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "690374387469-4p0rvlt99ct9fbvtfet69m3i2g2bm4jf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "drd.flhspatriotbattalion",
+            "certificate_hash": "8f7f4c9e71e6e2694782a512e1f55c229e6ed713"
+          }
+        },
+        {
           "client_id": "690374387469-ln1unuul4qrnko6i4s9v0rs03h8ved95.apps.googleusercontent.com",
           "client_type": 3
         }
